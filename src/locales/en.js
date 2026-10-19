@@ -113,7 +113,7 @@ export default {
   "Quick Navigation": "Quick Navigation",
   "No real patient data is stored.": "No real patient data is stored.",
   "Frontend demonstration · No real patient data is stored.": "Frontend demonstration · No real patient data is stored.",
-  "© 2026 Dr. Khalid Khan Zadran. Demo project.": "© 2026 Dr. Khalid Khan Zadran. Demo project.",
+  "© 2026 Dr. Khalid Khan Zadran. Demo project. muzhda ahmadi": "© 2026 Dr. Khalid Khan Zadran. Demo project. muzhda ahmadi",
   "Facebook": "Facebook",
   "LinkedIn": "LinkedIn",
   "Instagram": "Instagram",

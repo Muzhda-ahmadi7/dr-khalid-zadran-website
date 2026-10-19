@@ -113,7 +113,7 @@ export default {
   "Quick Navigation": "دسترسی سریع",
   "No real patient data is stored.": "هیچ معلومات واقعی بیمار ذخیره نمی‌شود.",
   "Frontend demonstration · No real patient data is stored.": "نمایش frontend · هیچ معلومات واقعی بیمار ذخیره نمی‌شود.",
-  "© 2026 Dr. Khalid Khan Zadran. Demo project. muzhda ahmadi": " © 2026 داکتر خالد خان زدران. پروژهٔ نمایشی. مژده احمدی",
+  "© 2026 Dr. Khalid Khan Zadran. Demo project. muzhda ahmadi": "© 2026 داکتر خالد خان زدران. پروژهٔ نمایشی. مژده احمدی",
   "Facebook": "فیسبوک",
   "LinkedIn": "لینکدین",
   "Instagram": "اینستاگرام",

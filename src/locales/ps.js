@@ -113,7 +113,7 @@ export default {
   "Quick Navigation": "چټک تګ راتګ",
   "No real patient data is stored.": "د ناروغانو ریښتیني معلومات نه ساتل کېږي.",
   "Frontend demonstration · No real patient data is stored.": "د frontend ډیمو · د ناروغانو ریښتیني معلومات نه ساتل کېږي.",
-  "© 2026 Dr. Khalid Khan Zadran. Demo project.": "© 2026 ډاکټر خالد خان ځدراڼ. د ډیمو پروژه.",
+  "© 2026 Dr. Khalid Khan Zadran. Demo project. muzhda ahmadi": "© 2026 ډاکټر خالد خان ځدراڼ. د ډیمو پروژه. مژده احمدی",
   "Facebook": "فیسبوک",
   "LinkedIn": "لینکډین",
   "Instagram": "انسټاګرام",

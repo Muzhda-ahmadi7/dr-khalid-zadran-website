@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dr. Khalid Khan Zadran | Consultant Neurosurgeon</title>
+    <!--
+      GitHub Pages has no server-side fallback, so a direct visit to /about etc.
+      returns this page. Redirect back to index.html while preserving the route.
+      Based on the well-known spa-github-pages technique.
+    -->
+    <script>
+      var pathSegmentsToKeep = 1; // project pages: keep "/<repo-name>/"
+      var l = window.location;
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname.split("/").slice(0, 1 + pathSegmentsToKeep).join("/") +
+          "/?/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(pathSegmentsToKeep)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -5,7 +5,7 @@ import SectionHeading from "../components/SectionHeading";
 import { Reveal, RevealGroup } from "../components/Reveal";
 import { fadeUp } from "../utils/motion";
 
-const portrait = "/images/zadran4.jpg";
+const portrait = `${import.meta.env.BASE_URL}images/zadran4.jpg`;
 
 import { useLanguage } from "../context/LanguageContext";
 

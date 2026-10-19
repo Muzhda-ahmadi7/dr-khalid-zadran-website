@@ -7,12 +7,13 @@ import { Reveal } from "../components/Reveal";
 import { EASE, fadeUp, stagger } from "../utils/motion";
 import { services } from "../data/services";
 
+// BASE_URL keeps image URLs correct on a sub-path deploy (GitHub Pages) and locally.
 const images = {
-  hero: "/images/dr-khalid-cutout.png",
-  office: "/images/zadran5.jpg",
-  interview: "/images/zadran2.jpg",
-  surgery: "/images/zadran.jpg",
-  conference: "/images/zadran3.jpg",
+  hero: `${import.meta.env.BASE_URL}images/dr-khalid-cutout.png`,
+  office: `${import.meta.env.BASE_URL}images/zadran5.jpg`,
+  interview: `${import.meta.env.BASE_URL}images/zadran2.jpg`,
+  surgery: `${import.meta.env.BASE_URL}images/zadran.jpg`,
+  conference: `${import.meta.env.BASE_URL}images/zadran3.jpg`,
 };
 
 import { useLanguage } from "../context/LanguageContext";
