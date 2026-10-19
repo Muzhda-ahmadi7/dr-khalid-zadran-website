@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional neurosurgical consultation website for Dr. Khalid Khan Zadran." />
+    <title>Dr. Khalid Khan Zadran | Consultant Neurosurgeon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    // Apply the stored language direction before first paint to avoid an LTR flash.
+    (function () {
+      var stored = "en";
+      try { stored = localStorage.getItem("neurosurgeon-language") || "en"; } catch (e) {}
+      var dir = stored === "fa" || stored === "ps" ? "rtl" : "ltr";
+      if (stored !== "en" && stored !== "fa" && stored !== "ps") { stored = "en"; dir = "ltr"; }
+      document.documentElement.lang = stored;
+      document.documentElement.dir = dir;
+    })();
+  </script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
